@@ -4,15 +4,23 @@
 
 Sugerencia: debes emplear la sentencia foreach para realizar este ejercicio de una manera eficiente.
 
-2. Crear una biblioteca llamada “matematicas.php” que incluya una función que permita imprimir por pantalla los primeros N números primos.
+2. Crea una biblioteca llamada "matematicas.php" que incluya una función que calcule el producto de 3 números.
 
-3. Partiendo del ejercicio anterior, añade una nueva función a la librería que calcule el producto de 3 números
+3. Partiendo del ejercicio anterior, añade una nueva función a la librería que imprima por pantalla los primeros N números primos.
 
-4. Usando dos arrays que contengan los valores: 4,12,-5,8,13,-9,0,3 y 1,-2,3,-6,4,12,-7,-8, calcular la media aritmética de cada uno empleando funciones y, posteriormente, mostrar por pantalla y separados por dos puntos “:” aquellos números que sean mayores a dicha media. Tómese la siguiente imagen como referencia:
+4. Usando dos arrays que contengan los valores: 4,12,-5,8,13,-9,0,3 y 1,-2,3,-6,4,12,-7,-8, calcular la media aritmética de cada uno empleando funciones y, posteriormente, mostrar por pantalla y separados por dos puntos “:” aquellos números que sean mayores a dicha media. Tómese como solución la siguiente referencia:
 
-5. Escribir un programa PHP que muestre en pantalla números aleatorios entre 1 y 500 hasta que aparezca un múltiplo de 7. Al terminar el programa se mostrará el mensaje “Fin de programa”.
+   Media 1 = 3.25
 
-6. Crear un array unidimensional con 100 números aleatorios entre 1 y 100. Mostrar el array en forma de tabla HTML de 10 filas x 10 columnas y sombrear en color azul claro (lightblue) los números repetidos.
+   4 : 12 : 8 : 13
+
+   Media 2 = -0.375
+
+   1 : 3 : 4 : 12
+
+6. Escribir un programa PHP que muestre en pantalla números aleatorios entre 1 y 500 hasta que aparezca un múltiplo de 7. Al terminar el programa se mostrará el mensaje “Fin de programa”.
+
+7. Crear un array unidimensional con 100 números aleatorios entre 1 y 100. Mostrar el array en forma de tabla HTML de 10 filas x 10 columnas y sombrear en color azul claro (lightblue) los números repetidos.
 
 Sugerencia: emplear la función de PHP array_count_values para ver los números repetidos.
 
