@@ -2,13 +2,19 @@
 
 1. Crear un array asociativo llamado “CajonDeSastre” donde se almacenen un número indeterminado de elementos de diferentes tipos (al menos 10). A continuación, saca de uno en uno los elementos y muéstralos por pantalla.
 
+   Bonus: Crea las funciones necesarias para implementar un mecanismo de [pila](https://es.wikipedia.org/wiki/Pila_(inform%C3%A1tica)) y uno de [cola](https://es.wikipedia.org/wiki/Cola_(inform%C3%A1tica)) mediante arrays asociativos.
+
 Sugerencia: debes emplear la sentencia foreach para realizar este ejercicio de una manera eficiente.
 
 2. Crea una biblioteca llamada "matematicas.php" que incluya una función que calcule el producto de 3 números.
 
-3. Partiendo del ejercicio anterior, añade una nueva función a la librería que imprima por pantalla los primeros N números primos.
+   Bonus: Desarrolla el ejercicio anterior implementando mecanismos que admitan un número variable de operandos hasta 5.
 
-4. Usando dos arrays que contengan los valores: 4,12,-5,8,13,-9,0,3 y 1,-2,3,-6,4,12,-7,-8, calcular la media aritmética de cada uno empleando funciones y, posteriormente, mostrar por pantalla y separados por dos puntos “:” aquellos números que sean mayores a dicha media. Tómese como solución la siguiente referencia:
+4. Partiendo del ejercicio anterior, añade una nueva función a la librería que imprima por pantalla los primeros N números primos.
+
+   Bonus: Desarrolla una nueva función en la librería que calcule la [sucesión de Fibonacci](https://es.wikipedia.org/wiki/Sucesi%C3%B3n_de_Fibonacci) hasta el número n.
+
+6. Usando dos arrays que contengan los valores: 4,12,-5,8,13,-9,0,3 y 1,-2,3,-6,4,12,-7,-8, calcular la media aritmética de cada uno empleando funciones y, posteriormente, mostrar por pantalla y separados por dos puntos “:” aquellos números que sean mayores a dicha media. Tómese como solución la siguiente referencia:
 
    Media 1 = 3.25
 
@@ -18,9 +24,13 @@ Sugerencia: debes emplear la sentencia foreach para realizar este ejercicio de u
 
    1 : 3 : 4 : 12
 
-6. Escribir un programa PHP que muestre en pantalla números aleatorios entre 1 y 500 hasta que aparezca un múltiplo de 7. Al terminar el programa se mostrará el mensaje “Fin de programa”.
+   Bonus: Desarrolla el ejercicio anterior permitiendo introducir al usuario los 4 números de cada array.
 
-7. Crear un array unidimensional con 100 números aleatorios entre 1 y 100. Mostrar el array en forma de tabla HTML de 10 filas x 10 columnas y sombrear en color azul claro (lightblue) los números repetidos.
+8. Escribir un programa PHP que muestre en pantalla números aleatorios entre 1 y 500 hasta que aparezca un múltiplo de 7. Al terminar el programa se mostrará el mensaje “Fin de programa”.
+
+   Bonus: Repetir el ejercicio anterior mostrando los n primeros [números primos](https://es.wikipedia.org/wiki/N%C3%BAmero_primo) [números primos gemelos](https://es.wikipedia.org/wiki/N%C3%BAmero_primo_gemelo) y los n primeros [números amigos](https://es.wikipedia.org/wiki/N%C3%BAmeros_amigos).
+
+10. Crear un array unidimensional con 100 números aleatorios entre 1 y 100. Mostrar el array en forma de tabla HTML de 10 filas x 10 columnas y sombrear en color azul claro (lightblue) los números repetidos.
 
 Sugerencia: emplear la función de PHP array_count_values para ver los números repetidos.
 
