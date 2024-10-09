@@ -38,22 +38,24 @@ Sugerencia: emplear la función de PHP array_count_values para ver los números 
 
 8. Partiendo de la frase: “Programa siempre tu código como si el tipo que va a tener que mantenerlo en el futuro fuera un violento psicópata que sabe dónde vives, (Martin Goldin)”. Utiliza las funciones de string y/o arrays que quieras, para mostrar en pantalla:
 
-El número de palabras que contiene la frase.
- La cuarta palabra de la frase.
- Número de veces que aparece la palabra “que”.
- La posición donde aparece la palabra psicópata.
-Sustituye la palabra “Programa” por “Comenta”.
-Número de palabras que comienzan por “fu”.
-Todas las palabras que comienzan por la letra “s”.
-El nombre del autor de la frase.
+* El número de palabras que contiene la frase.
+* La cuarta palabra de la frase.
+* Número de veces que aparece la palabra “que”.
+* La posición donde aparece la palabra psicópata.
+* Sustituye la palabra “Programa” por “Comenta”.
+* Número de palabras que comienzan por “fu”.
+* Todas las palabras que comienzan por la letra “s”.
+* El nombre del autor de la frase.
+
+
 Sugerencia: Las funciones str_count_words(), str_replace(), strst()r, implode(), rtrim(), trim(), ltrim(), preg_match_all() te servirán para el desarrollo de este ejercicio.
 
-Crear un array asociativo de dos dimensiones. La clave de la primera dimensión será el
+9. Crear un array asociativo de dos dimensiones. La clave de la primera dimensión será el
 código de empleado, que tendrá el formato “CExxxx” donde xxxx será un número de 4
 cifras. La segunda dimensión del array tendrá por claves “nombre”, “edad” y “salario”
 cuyo contenido será el nombre, la edad y el salario del empleado.
 
-Hacer una función en PHP que reciba como parámetros el nombre, la edad y el salario
+10. Hacer una función en PHP que reciba como parámetros el nombre, la edad y el salario
 de un empleado, y calcula un nuevo salario para esa persona en base a su situación:
 
 Si el salario es mayor de 2.000€, no cambiará.
@@ -66,4 +68,5 @@ De 30 a 45 años sube un 3%.
 A los mayores de 45 años sube un 15%.
 La función debe actualizar en el array los valores en caso de cambio y mostrar en pantalla los nombres y el nuevo salario de los que han sufrido modificaciones.
 Crear un juego en el que el usuario deba adivinar un número entre el 1 y el 10 en 3 intentos. Si el usuario acierta dentro de los turnos de juego, se imprimirá por pantalla: “¡Felicidades, has acertado” en color verde. Si por el contrario se agotan los turnos, mostrará el texto: “¡Oh, mejor suerte la próxima vez!” en color rojo, junto a la solución.
+
 
