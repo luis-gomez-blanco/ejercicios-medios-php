@@ -48,22 +48,30 @@ Sugerencia: emplear la función de PHP array_count_values para ver los números 
 * El nombre del autor de la frase.
 
 
-Sugerencia: Las funciones str_word_count(), str_replace(), strst(), implode(), rtrim(), trim(), ltrim(), preg_match_all() te servirán para el desarrollo de este ejercicio.
+*Sugerencia: Las funciones str_word_count(), str_replace(), strst(), implode(), rtrim(), trim(), ltrim(), preg_match_all() te servirán para el desarrollo de este ejercicio.*
 
 9. Crear un array asociativo de dos dimensiones. La clave de la primera dimensión será el código de empleado, que tendrá el formato “CExxxx” donde xxxx será un número de 4 cifras. La segunda dimensión del array tendrá por claves “nombre”, “edad” y “salario” cuyo contenido será el nombre, la edad y el salario del empleado.
 
    A continuación, hacer una función en PHP que reciba como parámetros el nombre, la edad y el salario
    de un empleado, y calcula un nuevo salario para esa persona en base a su situación:
    
-   Si el salario es mayor de 2.000€, no cambiará.
-   Si el salario está entre 1.000 y 2.000€:
-   Si además la edad es mayor de 45 años se sube un 4%.
-   Si la edad es menor o igual que 45 años se sube un 10%.
-   Si el salario es menor de 1.000€:
-   Los menores de 30 años cobrarán a partir de entonces exactamente 1.500€.
-   De 30 a 45 años sube un 3%.
-   A los mayores de 45 años sube un 15%.
-   La función debe actualizar en el array los valores en caso de cambio y mostrar en pantalla los nombres y el nuevo salario de los que han sufrido modificaciones.
+   * Si el salario es mayor de 2.000€, no cambiará.
+   
+   * Si el salario está entre 1.000 y 2.000€:
+   
+   * Si además la edad es mayor de 45 años se sube un 4%.
+   
+   * Si la edad es menor o igual que 45 años se sube un 10%.
+   
+   * Si el salario es menor de 1.000€:
+
+   * Los menores de 30 años cobrarán a partir de entonces exactamente 1.500€.
+   
+   * De 30 a 45 años sube un 3%.
+   
+   * A los mayores de 45 años sube un 15%.
+   
+   * La función debe actualizar en el array los valores en caso de cambio y mostrar en pantalla los nombres y el nuevo salario de los que han sufrido modificaciones.
 
 10. Crear un juego en el que el usuario deba adivinar un número entre el 1 y el 10 en 3 intentos. Si el usuario acierta dentro de los turnos de juego, se imprimirá por pantalla: “¡Felicidades, has acertado” en color verde. Si por el contrario se agotan los turnos, mostrará el texto: “¡Oh, mejor suerte la próxima vez!” en color rojo, junto a la solución.
 
